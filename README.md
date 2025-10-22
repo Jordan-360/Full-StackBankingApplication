@@ -29,11 +29,11 @@ Built with a **React frontend**, **Spring Boot backend**, and **MySQL database**
 - 📝 **Export Statements:** Export account statements as PDF  
 - 📱 **Mobile Enhancements:** Fully responsive mobile interface
 
-1. **Clone the repository:**  
+1. Clone the repository:  
 ```bash
 git clone https://github.com/yourusername/jcu-banking-app.git
 
-2. **Backend Setup:**
+2. Backend Setup:
 Navigate to the backend folder:
 ```bash
 
@@ -44,7 +44,7 @@ Run the Spring Boot server:
 ```bash
 mvn spring-boot:run
 
-3. **Frontend Setup:**
+3. Frontend Setup:
 Navigate to the frontend folder:
 ```bash
 cd frontend
