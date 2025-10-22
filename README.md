@@ -1,58 +1,29 @@
-💳 Jordan's Credit Union (JCU) Banking App
+A full-stack banking application that allows users to create and manage multiple bank accounts, perform transactions, and track balances.
+Built with a React frontend, Spring Boot backend, and MySQL database, it demonstrates CRUD operations and RESTful API integration in a clean and responsive interface. 💳🚀
 
-A full-stack banking application built with React, Spring Boot, and MySQL. Manage accounts, track balances, and perform transactions in a clean, responsive interface. 🚀
+Features ✨
 
-🏦 Key Features
+🏦 Create, view, and manage multiple bank accounts
 
-Account Management 🏛️
-Create, view, and manage multiple bank accounts.
+💸 Deposit, withdraw, and transfer funds between accounts
 
-Transactions 💸
-Deposit, withdraw, and transfer funds seamlessly.
+📊 Dashboard overview showing total accounts and rolling balances
 
-Dashboard Overview 📊
-See total accounts and rolling balances at a glance.
+⚡ Real-time updates for account balances and transactions
 
-Real-Time Updates ⚡
-All account balances and transactions update dynamically.
+🎨 Responsive and user-friendly interface
 
-🛠 Tech Stack
+Technologies Used 🛠
 
-Frontend: React, CSS
-Backend: Spring Boot, Java
-Database: MySQL
-API Communication: RESTful services via Axios
+Frontend: React, CSS ⚛️
 
-🌟 Highlights
+Backend: Spring Boot, Java ☕
 
-🔗 Full-Stack Integration: Connects frontend UI to a robust backend.
+Database: MySQL 🗄️
 
-💡 Real-World Features: Implements account tracking, transactions, and dashboard summaries.
+API Communication: RESTful services via Axios 🔗
 
-🎨 Clean & Responsive UI: Modern design principles for an intuitive user experience.
-
-🚀 Setup Instructions
-
-Clone the repository
-
-git clone https://github.com/yourusername/jcu-banking-app.git
-
-
-Backend
-Configure your MySQL database in application.properties.
-
-Start Spring Boot:
-mvn spring-boot:run
-
-Frontend
-cd frontend
-npm install
-npm start
-
-Open in browser 🌐
-http://localhost:3000
-
-🔮 Future Improvements
+Future Improvements 🔮
 
 🔐 User Authentication: Login/signup functionality
 
@@ -61,13 +32,3 @@ http://localhost:3000
 📝 Export Statements: Export account statements as PDF
 
 📱 Mobile Enhancements: Fully responsive mobile interface
-
-✅ Portfolio-Ready Touches:
-
-Clear, visually separated sections with horizontal lines
-
-Emojis to highlight key features
-
-Combined tech stack (text + badges) for clarity and visual appeal
-
-Easy-to-follow setup instructions and screenshots for demonstration
