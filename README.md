@@ -1,4 +1,4 @@
-A **full-stack banking application** that allows users to **create and manage multiple bank accounts, perform transactions, and track balances**.  
+This is a **full-stack banking application** that allows users to **create and manage multiple bank accounts, perform transactions, and track balances**.  
 Built with a **React frontend**, **Spring Boot backend**, and **MySQL database**, it demonstrates **CRUD operations** and **RESTful API integration** in a clean and responsive interface. 💳🚀
 
 
