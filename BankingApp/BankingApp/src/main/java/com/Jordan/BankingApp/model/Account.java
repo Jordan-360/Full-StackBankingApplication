@@ -34,7 +34,6 @@ public class Account {
     @Column(name = "updated_at")
     private Timestamp updatedAt;
 
-    // Constructors
     public Account() {}
 
     public Account(String ownerName) {
@@ -46,7 +45,6 @@ public class Account {
         this.balance = balance;
     }
 
-    // Getters and Setters
     public Long getId() { return id; }
 
     public String getOwnerName() { return ownerName; }
@@ -62,4 +60,5 @@ public class Account {
 
     public Timestamp getCreatedAt() { return createdAt; }
     public Timestamp getUpdatedAt() { return updatedAt; }
+
 }
