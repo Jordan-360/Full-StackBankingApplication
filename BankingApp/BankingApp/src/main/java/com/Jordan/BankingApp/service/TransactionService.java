@@ -19,7 +19,6 @@ public class TransactionService {
     }
 
     public List<Transaction> getTransactionsByAccount(Long accountId) {
-        // Use distinct query to avoid duplicates
         return txRepo.findDistinctByAccount_Id(accountId);
     }
 
@@ -46,7 +45,8 @@ public class TransactionService {
         }
 
         account.addTransaction(tx);
-        accRepo.save(account);   // cascades and saves transaction too
+        accRepo.save(account);   
         return tx;
     }
+
 }
