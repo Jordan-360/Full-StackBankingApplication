@@ -30,11 +30,8 @@ const createAccount = async (ownerName, balance) => {
     if (res?.data) {
       const newAccount = res.data;
 
-      // Add the new account to the list WITHOUT changing selection
       setAccounts(prev => [...prev, newAccount]);
-
-      // Optional: only select if you want
-      // setSelectedAccount(newAccount);
+      
     }
   } catch (err) {
     console.error("createAccount:", err);
@@ -47,7 +44,6 @@ const createAccount = async (ownerName, balance) => {
       const res = await axios.get(`${API_BASE}/accounts/${accountId}`);
       if (res?.data) {
         setSelectedAccount(res.data);
-        // update accounts state with latest balances
         setAccounts(prev => prev.map(a => a.id === accountId ? res.data : a));
       }
     } catch (err) {
