@@ -15,7 +15,6 @@ public class Transaction {
     private double amount;
     private String type;
 
-    // Use a proper column name in the table (created_at)
     @CreationTimestamp
     @Column(name = "created_at", nullable = false, updatable = false)
     private Timestamp createdAt;
@@ -51,4 +50,5 @@ public class Transaction {
     public Timestamp getCreatedAt() {
         return createdAt;
     }
+
 }
