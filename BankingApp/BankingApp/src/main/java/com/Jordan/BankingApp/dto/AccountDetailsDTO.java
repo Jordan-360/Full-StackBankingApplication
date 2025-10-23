@@ -15,9 +15,9 @@ public class AccountDetailsDTO {
         this.transactions = transactions;
     }
 
-    // Getters
     public Long getAccountId() { return accountId; }
     public String getOwnerName() { return ownerName; }
     public Double getBalance() { return balance; }
     public List<Transaction> getTransactions() { return transactions; }
 }
+
